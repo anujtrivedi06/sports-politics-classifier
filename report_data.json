@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-02-15 21:06:46",
+  "dataset_info": {
+    "total_samples": 60,
+    "train_size": 48,
+    "test_size": 12,
+    "classes": [
+      "sports",
+      "politics"
+    ]
+  },
+  "models": [
+    {
+      "name": "Naive Bayes_tfidf",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "cv_mean": 0.8533333333333333,
+      "cv_std": 0.10408923047671441
+    },
+    {
+      "name": "Logistic Regression_tfidf",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "cv_mean": 0.8933333333333333,
+      "cv_std": 0.07048334012068314
+    },
+    {
+      "name": "Linear SVM_tfidf",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "cv_mean": 0.9155555555555555,
+      "cv_std": 0.0425136143771311
+    },
+    {
+      "name": "Naive Bayes_count",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "cv_mean": 0.9155555555555555,
+      "cv_std": 0.103661367019472
+    },
+    {
+      "name": "Logistic Regression_count",
+      "accuracy": 0.9166666666666666,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1_score": 0.9090909090909091,
+      "cv_mean": 0.8955555555555555,
+      "cv_std": 0.06347936380926976
+    },
+    {
+      "name": "Linear SVM_count",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "cv_mean": 0.9155555555555555,
+      "cv_std": 0.0425136143771311
+    }
+  ]
+}
