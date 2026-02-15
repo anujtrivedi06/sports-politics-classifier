@@ -155,28 +155,3 @@ Three algorithms tested:
 3. **Language**: English-only support
 4. **Ambiguity**: May struggle with documents covering both topics
 5. **Context Dependency**: No deep semantic understanding
-
-## 🔮 Future Improvements
-
-1. **Larger Dataset**: Collect 10,000+ documents from news sources
-2. **Deep Learning**: Implement BERT, RoBERTa for better understanding
-3. **Multi-class**: Extend to more categories (economy, technology, etc.)
-4. **Real-time API**: Deploy as web service
-5. **Active Learning**: Continuous improvement with user feedback
-6. **Multilingual Support**: Extend to other languages
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 👥 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on GitHub.
-
----
-
-**Note**: This is an educational project demonstrating text classification techniques. For production use, consider using larger datasets and more sophisticated models.
